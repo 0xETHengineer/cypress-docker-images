@@ -11,7 +11,7 @@
 #
 
 # NOTE: manual edit - there is no node:8.0.0-buster that we typically use
-FROM node:20.8.1
+FROM node:20.18.0
 
 RUN apt-get update && \
   apt-get install --no-install-recommends -y \
