@@ -5,7 +5,7 @@
 # build it with command
 #   docker build -t cypress/base:18.12.1 .
 #
-FROM node:18.12.1-bullseye-slim
+FROM node:18.20.5-bullseye-slim
 
 RUN apt-get update && \
   apt-get install --no-install-recommends -y \
